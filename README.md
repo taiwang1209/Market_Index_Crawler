@@ -16,6 +16,14 @@
 
 **Flask** - a micro web framework written in Python
 
+
+使用說明
+---------------
+
+-安裝flask
+-將app.py內46及58行的參數改掉
+-啟動app.py即可使用
+
 Demo
 ---------------
 ![image](https://raw.githubusercontent.com/taiwang1209/image/main/Market_Index_1.png)
