@@ -10,7 +10,6 @@ app = Flask(__name__)
 
 url = 'https://histock.tw/index'
 suffix = ['/DJI', '/NASDAQ', '/SP500', '/SOX', '-tw/FITX']
-data_str = ''
 data = []
 
 def crawl(url):
@@ -37,8 +36,6 @@ def mail():
     
     for i in range(len(suffix)):
         crawl(url+suffix[i])
-
-    data_str = ' '.join(data)
 
     #寄信
     content = MIMEMultipart()  #建立MIMEMultipart物件
