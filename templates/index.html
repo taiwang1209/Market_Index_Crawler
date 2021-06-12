@@ -14,7 +14,7 @@
     <link href='{{fontawsome}}' rel='stylesheet'>
 
     <style>
-        .body{
+        .body {
             font-family: Microsoft JhengHei;
         }
 
@@ -32,7 +32,7 @@
             }
         }
     </style>
-    
+
     <!-- Custom styles for this template -->
     <link href='{{form}}' rel='stylesheet'>
 
@@ -54,9 +54,6 @@
             <p class='mt-5 mb-3 text-muted'>&copy; 2021 Tai</p>
         </form>
     </main>
-    {% for msg in get_flashed_messages(category_filter=['ok']): %}
-    {{msg}}
-    {% endfor %}    
 </body>
 
 </html>
